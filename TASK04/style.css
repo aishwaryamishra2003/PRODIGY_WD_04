@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap');
 
 *{
     margin: 0;
@@ -8,7 +7,7 @@
 }
 
 body{
-    background-image: url("images/felix-mittermeier-L4-16dmZ-1c-unsplash.jpg");
+    background-image: url("bg.jpg");
     background-size: cover;
     min-height: 120vh;
 }
@@ -17,6 +16,7 @@ header h2{
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    color: aliceblue;
 }
 
 .card{
@@ -27,7 +27,7 @@ header h2{
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 .search{
@@ -46,7 +46,7 @@ header h2{
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .search button{
@@ -78,12 +78,12 @@ header h2{
 
 .weather h1{
     font-size: 35px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .weather h2{
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: bolder;
     margin-top: -10px;
 }
 
@@ -144,7 +144,7 @@ header h2{
 }
 
 footer {
-    background-color: #4CAF50;
+    background-color:coral;
     color: white;
     text-align: center;
     padding: 8px;
